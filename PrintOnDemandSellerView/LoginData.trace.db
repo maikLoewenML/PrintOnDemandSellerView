@@ -1,0 +1,4 @@
+2023-03-27 14:28:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabelle "AMAZON_MERCH_ON_DEMAND" nicht gefunden
+Table "AMAZON_MERCH_ON_DEMAND" not found; SQL statement:
+select amazonmerc0_.id as id1_0_0_, amazonmerc0_.email as email2_0_0_, amazonmerc0_.password as password3_0_0_ from amazon_merch_on_demand amazonmerc0_ where amazonmerc0_.id=? [42102-200]
